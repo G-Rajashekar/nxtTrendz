@@ -120,7 +120,7 @@ class LoginForm extends Component {
           <div className="input-container">{this.renderUsernameField()}</div>
           <div className="input-container">{this.renderPasswordField()}</div>
           <button type="submit" className="login-button">
-            Log
+            Login
           </button>
           {showSubmitError && <p className="error-message">*{errorMsg}</p>}
         </form>
